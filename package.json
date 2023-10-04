@@ -1,0 +1,92 @@
+{
+  "name": "askme",
+  "homepage": "http://as.in",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/camera": "^4.1.4",
+    "@capacitor/cli": "^4.7.0",
+    "@capacitor/core": "^4.7.0",
+    "@capacitor/storage": "^1.2.5",
+    "@firebase/app": "^0.8.4",
+    "@netless/fastboard-react": "^0.3.7",
+    "@netless/window-manager": "^0.4.55",
+    "@react-oauth/google": "^0.9.0",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@stripe/react-stripe-js": "^1.16.4",
+    "@stripe/stripe-js": "^1.46.0",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "agora-rtc-react": "github:AgoraIO-Community/agora-rtc-react#v1.0.0",
+    "agora-rtc-sdk": "^3.6.11",
+    "antd": "^5.1.0",
+    "axios": "^0.27.2",
+    "date-fns": "^2.29.3",
+    "firebase": "^9.14.0",
+    "fs": "0.0.1-security",
+    "gapi-script": "^1.2.0",
+    "jspdf": "^2.5.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "otp-input-react": "^0.3.0",
+    "primeflex": "^3.2.1",
+    "primeicons": "^5.0.0",
+    "primereact": "^8.5.0",
+    "react": "^18.2.0",
+    "react-apple-login": "^1.1.6",
+    "react-dom": "^18.2.0",
+    "react-facebook-login": "^4.1.1",
+    "react-html-renderer": "^0.3.3",
+    "react-icons": "^4.4.0",
+    "react-loading-skeleton": "^3.1.0",
+    "react-modal": "^3.15.1",
+    "react-redux": "^8.0.4",
+    "react-scripts": "5.0.1",
+    "react-web-share": "^2.0.2",
+    "react-zendesk": "^0.1.13",
+    "sitemap": "^7.1.1",
+    "stripe": "^11.9.1",
+    "styled-components": "^5.3.6",
+    "swiper": "^8.4.7",
+    "ua-parser-js": "^1.0.32",
+    "update-browserslist-db": "^1.0.10",
+    "web-vitals": "^2.1.4",
+    "white-web-sdk": "^2.16.41"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts --max_old_space_size=16384 build",
+    "build-serve": "node --max_old_space_size=16384 node_modules/.bin/react-scripts build",
+    "sitemap": "babel-node src/sitemap.js",
+    "predeploy": "npm run sitemap",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "babel-cli": "^6.26.0",
+    "postcss": "^8.4.16",
+    "react-router-dom": "^6.3.0",
+    "tailwindcss": "^3.1.8"
+  }
+}
